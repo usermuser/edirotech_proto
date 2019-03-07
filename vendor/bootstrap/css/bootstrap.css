@@ -59,7 +59,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
 }
 
@@ -4205,7 +4205,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 315px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -6442,7 +6442,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: hsl(210, 23%, 93%) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -8204,7 +8204,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  /* margin-left: auto !important; */
 }
 
 @media (min-width: 576px) {
