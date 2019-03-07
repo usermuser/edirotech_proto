@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  /* line-height: 1.75; */
 }
 
 a {
@@ -42,14 +42,14 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 60px;
 }
 
 section h2.section-heading-graphite {
   font-size: 30px;
-  margin-top: 40px;
-  margin-bottom: 70px;
-  color: rgba(78, 87, 93, 1);
+  margin-top: 30px;
+  margin-bottom: 108px;
+  color: rgb(239, 119, 104);
   font-weight: 100;
   font-style: italic;
 }
@@ -254,6 +254,7 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+  box-shadow: 2px 4px 8px 0px black;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -263,7 +264,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(239, 119, 104, 0.7);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -571,7 +572,7 @@ header.masthead .intro-text .intro-heading {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 0 20px 20px 20px;
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -582,7 +583,7 @@ header.masthead .intro-text .intro-heading {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 20px 20px 20px;
   }
 }
 
