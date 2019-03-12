@@ -6578,6 +6578,16 @@ button.bg-dark:focus {
   border: 7px solid rgba(239, 119, 104, 1);
   border-radius: 100%;
   background-color: rgba(239, 119, 104, 1);
+
+}
+
+.rounded-circle-projects:hover {
+  /*background-color: yellow;*/
+  /*border-radius: 10% !important;*/
+  /*max-width: 62%;*/
+  /*border: 10px solid rgb(0, 0, 0, .5);*/
+  border: 3px solid rgba(239, 119, 104, .5);
+
 }
 
 .rounded-pill {
